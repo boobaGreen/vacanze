@@ -1,0 +1,21 @@
+1.npm install gh-pages --save-dev
+
+2.
+{
+  "name": "my-app",
+  "version": "0.1.0",
++ "homepage": "https://gitname.github.io/react-gh-pages",
+  "private": true,
+
+3.
+  "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+4.
+    git remote add origin https://github.com/{username}/{repo-name}.git
+
+5. $ npm run deploy
+
+opz. npm run deploy -- -m "Deploy React app to GitHub Pages"
