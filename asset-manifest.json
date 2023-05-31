@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vacanze/static/css/main.aa2f2d50.css",
+    "main.js": "/vacanze/static/js/main.3ef7f537.js",
+    "index.html": "/vacanze/index.html",
+    "main.aa2f2d50.css.map": "/vacanze/static/css/main.aa2f2d50.css.map",
+    "main.3ef7f537.js.map": "/vacanze/static/js/main.3ef7f537.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa2f2d50.css",
+    "static/js/main.3ef7f537.js"
+  ]
+}
